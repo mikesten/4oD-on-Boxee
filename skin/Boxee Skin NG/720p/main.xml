@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<window type="window" id="14000">
+    <defaultcontrol always="true">9001</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
+    <controls>
+        <control type="group">
+            <control type="group">
+                <visible>true</visible>
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>1280</width>
+                    <height>60</height>
+                    <align>left</align>
+                    <aligny>center</aligny>
+                    <texture>4od.gif</texture>
+                    <colordiffuse>00000000</colordiffuse>
+                </control>
+                <control type="image">
+                    <description>4OD</description>
+                    <posx>0</posx>
+                    <posy>60</posy>
+                    <width>1280</width>
+                    <height>720</height>
+                    <texture>white.png</texture>
+                    <colordiffuse>00000000</colordiffuse>
+                </control>
+                <control type="grouplist" id="9000">
+                    <animation type="Conditional" condition="Window.IsVisible(DialogProgress.xml)">
+                        <effect type="fade" start="100" end="60" time="200"/>
+                    </animation>
+                    <posx>0</posx>
+                    <posy>100</posy>
+                    <width>300</width>
+                    <height>600</height>
+                    <orientation>vertical</orientation>
+                    <defaultcontrol>9001</defaultcontrol>
+                    <onleft>-</onleft>
+                    <onright>-</onright>
+                    <onup>-</onup>
+                    <ondown>-</ondown>
+                    <control type="button" id="9001">
+                        <label>4oD</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4od")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9002">
+                        <label>4oDComedy</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDComedy")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9003">
+                        <label>4oDDrama</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDrama")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9004">
+                        <label>4oDFood</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDFood")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9005">
+                        <label>4oDLifestyle</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDLifestyle")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9006">
+                        <label>4oDDocumentaries</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDocumentaries")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9007">
+                        <label>4oDEntertainment</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDEntertainment")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9008">
+                        <label>4oDHomes</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDHomes")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                    <control type="button" id="9009">
+                        <label>4oDIndia</label>
+                        <width>300</width>
+                        <height>80</height>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <textoffsetx>40</textoffsetx>
+                        <onright lang="python"><![CDATA[
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDIndia")
+mc.GetWindow(14000).GetList(1000).SetFocus()
+]]></onright>
+                    </control>
+                </control><!-- end grouplist -->
+                <control type="list" id="1000">
+                    <visible>true</visible>
+                    <animation type="Conditional" condition="Window.IsVisible(DialogProgress.xml)">
+                        <effect type="fade" start="100" end="20" time="200"/>
+                    </animation>
+                    <posx>340</posx>
+                    <posy>60</posy>
+                    <width>940</width>
+                    <height>700</height>
+                    <onleft>9000</onleft>
+                    <onright>-</onright>
+                    <onup>-</onup>
+                    <ondown>-</ondown>
+                    <scrolltime>200</scrolltime>
+                    <pagecontrol>-</pagecontrol>
+                    <orientation>vertical</orientation>
+                    <itemlayout width="940" height="200">
+                        <control type="image">
+                            <posx>0</posx>
+                            <posy>0</posy>
+                            <width>266</width>
+                            <height>200</height>
+                            <info>ListItem.Thumb</info>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>20</posy>
+                            <width>594</width>
+                            <height>60</height>
+                            <font>font36</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.Label]</label>
+                            <textcolor>99999999</textcolor>
+                            <wrapmultiline>false</wrapmultiline>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>60</posy>
+                            <width>594</width>
+                            <height>140</height>
+                            <font>font24</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.property(description)]</label>
+                            <textcolor>99999999</textcolor>
+                            <wrapmultiline>true</wrapmultiline>
+                        </control>
+                    </itemlayout>
+                    <focusedlayout width="940" height="200">
+                        <control type="image">
+                            <posx>0</posx>
+                            <posy>0</posy>
+                            <width>266</width>
+                            <height>200</height>
+                            <info>ListItem.Thumb</info>
+                            <animation effect="zoom" end="120,120" center="auto" time="140">Focus</animation>
+                            <animation effect="zoom" start="120,120" end="100,100" center="auto" time="140">Unfocus</animation>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>20</posy>
+                            <width>594</width>
+                            <height>60</height>
+                            <font>font36b</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.Label]</label>
+                            <textcolor>white</textcolor>
+                            <wrapmultiline>false</wrapmultiline>
+                            <animation effect="slide" end="20,0" center="auto" time="140">Focus</animation>
+                            <animation effect="slide" start="20,0" center="auto" time="140">Unfocus</animation>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>60</posy>
+                            <width>594</width>
+                            <height>140</height>
+                            <font>font24</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.property(description)]</label>
+                            <textcolor>white</textcolor>
+                            <wrapmultiline>true</wrapmultiline>
+                            <animation effect="slide" end="20,0" center="auto" time="140">Focus</animation>
+                            <animation effect="slide" start="20,0" center="auto" time="140">Unfocus</animation>
+                        </control>
+                    </focusedlayout>
+                    <content type="url" url="rss://youtube-to-boxee.donotremove.co.uk/users/4oD">
+                    </content>
+                </control><!-- end list -->
+            </control>
+        </control>
+    </controls>
+</window>
