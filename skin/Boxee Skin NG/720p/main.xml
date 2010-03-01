@@ -47,6 +47,7 @@
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oD shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4od")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -59,6 +60,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDComedy shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDComedy")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -71,6 +73,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDDrama shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDrama")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -83,6 +86,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDFood shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDFood")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -95,6 +99,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDLifestyle shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDLifestyle")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -107,6 +112,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDDocumentaries shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDocumentaries")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -119,6 +125,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDEntertainment shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDEntertainment")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -131,6 +138,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDHomes shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDHomes")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
@@ -143,6 +151,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
+mc.ShowDialogNotification('Loading 4oDIndia shows...')
 mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDIndia")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
